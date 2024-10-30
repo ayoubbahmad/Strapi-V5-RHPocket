@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_featured_section_defaults",
+    "info": {
+        "displayName": "default",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "cover": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "visible": {
+            "type": "boolean",
+            "required": true
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_story_type_videos",
+    "info": {
+        "displayName": "video",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "header": {
+            "type": "component",
+            "repeatable": false,
+            "component": "header.video"
+        },
+        "featuredSection": {
+            "type": "component",
+            "repeatable": false,
+            "component": "featured-section.default"
+        },
+        "storyContent": {
+            "type": "component",
+            "repeatable": true,
+            "component": "story-content.default"
+        }
+    }
+}

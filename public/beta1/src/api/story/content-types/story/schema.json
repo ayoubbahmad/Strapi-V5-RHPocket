@@ -1,0 +1,39 @@
+{
+    "kind": "collectionType",
+    "collectionName": "stories",
+    "info": {
+        "singularName": "story",
+        "pluralName": "stories",
+        "displayName": "Actualités",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "featured": {
+            "type": "boolean"
+        },
+        "mediaType": {
+            "type": "string"
+        },
+        "hasContent": {
+            "type": "boolean"
+        },
+        "storyType": {
+            "type": "dynamiczone",
+            "components": [
+                "story-type.web-link",
+                "story-type.video",
+                "story-type.short-text",
+                "story-type.image-s",
+                "story-type.file"
+            ],
+            "max": 1
+        }
+    }
+}

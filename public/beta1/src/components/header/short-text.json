@@ -1,0 +1,12 @@
+{
+    "collectionName": "components_header_short_texts",
+    "info": {
+        "displayName": "shortText"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        }
+    }
+}
