@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stories",
+  "info": {
+    "singularName": "story",
+    "pluralName": "stories",
+    "displayName": "Actualités",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "featured": {
+      "type": "boolean"
+    },
+    "mediaType": {
+      "type": "string"
+    },
+    "storyType": {
+      "type": "dynamiczone",
+      "components": ["story-type.file"]
+    }
+  }
+}

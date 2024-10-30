@@ -30,6 +30,18 @@ export default {
       // 'zh-Hans',
       // 'zh',
     ],
+    tutorials: false,
+    translations: {
+      en: {
+        'app.components.HomePage.community': ' ',
+        'app.components.BlockLink.cloud': ' ',
+        'app.components.BlockLink.cloud.content': ' ',
+      },
+    },
+    menu: {
+      isDisplayed: false,
+      links: [],
+    },
   },
   bootstrap(app: StrapiApp) {
     console.log(app);

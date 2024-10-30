@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_story_content_defaults",
+  "info": {
+    "displayName": "default",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

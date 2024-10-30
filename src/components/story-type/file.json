@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_story_type_files",
+  "info": {
+    "displayName": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.file"
+    },
+    "featuredSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "featured-section.default"
+    },
+    "storyContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "story-content.default"
+    }
+  }
+}

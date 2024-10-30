@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_story_type_image_s_s",
+  "info": {
+    "displayName": "image(s)"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.image-s"
+    }
+  }
+}
