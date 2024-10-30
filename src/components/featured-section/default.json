@@ -17,7 +17,7 @@
         "images"
       ]
     },
-    "show": {
+    "visible": {
       "type": "boolean",
       "required": true
     }

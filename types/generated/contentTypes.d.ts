@@ -12,9 +12,25 @@ export interface ApiStoryStory extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    title: Schema.Attribute.String;
     featured: Schema.Attribute.Boolean;
     mediaType: Schema.Attribute.String;
-    storyType: Schema.Attribute.DynamicZone<['story-type.file']>;
+    hasContent: Schema.Attribute.Boolean;
+    storyType: Schema.Attribute.DynamicZone<
+      [
+        'story-type.web-link',
+        'story-type.video',
+        'story-type.short-text',
+        'story-type.image-s',
+        'story-type.file',
+      ]
+    > &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 1;
+        },
+        number
+      >;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;

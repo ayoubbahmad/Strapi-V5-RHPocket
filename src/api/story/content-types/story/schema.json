@@ -12,15 +12,28 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "featured": {
       "type": "boolean"
     },
     "mediaType": {
       "type": "string"
     },
+    "hasContent": {
+      "type": "boolean"
+    },
     "storyType": {
       "type": "dynamiczone",
-      "components": ["story-type.file"]
+      "components": [
+        "story-type.web-link",
+        "story-type.video",
+        "story-type.short-text",
+        "story-type.image-s",
+        "story-type.file"
+      ],
+      "max": 1
     }
   }
 }

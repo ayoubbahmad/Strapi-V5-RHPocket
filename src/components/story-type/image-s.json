@@ -1,7 +1,8 @@
 {
   "collectionName": "components_story_type_image_s_s",
   "info": {
-    "displayName": "image(s)"
+    "displayName": "image(s)",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,6 +10,16 @@
       "type": "component",
       "repeatable": false,
       "component": "header.image-s"
+    },
+    "featuredSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "featured-section.default"
+    },
+    "storyContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "story-content.default"
     }
   }
 }
